@@ -22,10 +22,7 @@
 
 Результат работы алгоритма:
   
- ![](https://github.com/Abkelyamova/-/blob/master/1NN.PNG)
-
-
-  
-
-
-
+ ![](https://github.com/Abkelyamova/-/blob/master/1nnRplot.png
+ 
+ ### KNN
+ 
