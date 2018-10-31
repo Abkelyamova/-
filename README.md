@@ -25,7 +25,7 @@
 
 Результат работы алгоритма:
   
- ![](https://github.com/Abkelyamova/-/blob/master/1nnRplot.png
+ ![](https://github.com/Abkelyamova/-/blob/master/1nnRplot.png)
  
  ### KNN
  
@@ -50,4 +50,4 @@ LOO для KNN показал что оптимальное k = 6.
 
 Для оценки близости классифицируемого объекта *u* к классу *y* **алгоритм kwnn** использует следующую функцию:
 
-
+![](https://github.com/Abkelyamova/-/blob/master/KNN%26LOO.png)
