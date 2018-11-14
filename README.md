@@ -38,7 +38,32 @@
 Алгоритм выбирает _k_ ближайших соседей, возвращает тот класс, который среди выбранных встречается большее количество раз и относит классифицируемый объект *u* этому классу.
 Для оценки близости объекта *u* к классу *y* алгоритм **kNN** использует следующую функцию: ![](http://latex.codecogs.com/svg.latex?%5Clarge%20W%28i%2C%20u%29%20%3D%20%5Bi%20%5Cleq%20k%5D) , где *i* -- порядок соседа по расстоянию к классифицируемому объекту u.
 LOO для KNN показал что оптимальное k = 6.
+Результат работы алгоритма: 
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/6NN.png)
 
+Скользящий контроль для алгоритма KNN:
+```diff
+LOO <- function(xl,class) 
+{
+  n <- dim(xl)[1];
+  loo <- rep(0, n-1) 
+  for(i in 1:n)
+  {
+    X <- xl[-i, 1:3]
+    u <- xl[i, 1:2]
+    orderedXl <- sortObjectByDist(X, u)
+    for(k in 1:(n-1))
+    {
+      test <- knn(X,u,k,orderedXl)
+      if(colors[test] != colors[class[i]])
+      {
+        loo[k] <- loo[k]+1;
+      }
+    }
+  }
+```
+
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/loo_knn.png)
 #### Преимущества:
 
 - При *k*, подобранном около оптимального, алгоритм "неплохо" классифицирует.
