@@ -31,7 +31,7 @@
 
 Результат работы алгоритма:
   
- ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/1NN.png)
+ ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/NN.png)
  
  ### KNN
  
