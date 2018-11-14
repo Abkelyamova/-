@@ -25,7 +25,7 @@
 
 Результат работы алгоритма:
   
- ![](https://github.com/Abkelyamova/-/blob/master/1nnRplot.png)
+ ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/1NN.png)
  
  ### KNN
  
