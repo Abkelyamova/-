@@ -25,10 +25,7 @@ kwNN <- function(xl, z, k, q)
   for(i in 1:k){ 
     orderedXl[i, 4] = q^i 
   } 
-  
-  a=n+1 
-  b=n+2 
-  classes <- orderedXl[1:k, a:b]
+  classes <- orderedXl[1:k, (n+1):(n+2)]
   
   m[1,2]=sum(classes[classes$Species=='setosa', 2])
   m[2,2]=sum(classes[classes$Species=='versicolor', 2])
@@ -41,7 +38,7 @@ kwNN <- function(xl, z, k, q)
 
 colors <- c("setosa" = "red", "versicolor" = "green3", "virginica" = "blue")
 plot(iris[, 3:4], pch = 21, bg = colors[iris$Species], col = colors[iris$Species], asp = 1, 
-     xlab = "Äëèíà Ëåïåñòêà", ylab = "Øèðèíà Ëåïåñòêà", main = "11wNN ïðè q=0.8") 
+     xlab = "Ã„Ã«Ã¨Ã­Ã  Ã‹Ã¥Ã¯Ã¥Ã±Ã²ÃªÃ ", ylab = "Ã˜Ã¨Ã°Ã¨Ã­Ã  Ã‹Ã¥Ã¯Ã¥Ã±Ã²ÃªÃ ", main = "11wNN Ã¯Ã°Ã¨ q=0.8") 
 
 xl <- iris[, 3:5] 
 x <- 0.7 
