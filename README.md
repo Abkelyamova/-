@@ -95,3 +95,8 @@ LOO <- function(xl,class)
 - То же самое, что и knn
 - Шире диапазон оптимальных k.
 - Лучше точность на границах.
+<table>
+<tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
+<tr><td> KNN</td><td>k=6</td><td>0.33</td><tr>
+<tr><td> KWNN</td><td>k=9</td><td>0.33</td<tr>
+ <table>
