@@ -128,9 +128,12 @@ LOO <- function(xl,class)
 Случай гауссовского ядра:
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(G).png)
 
+Вывод: Больше всего подходи гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
+
 ## Сравнение алгоритмов классификации:
 <table>
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
-<tr><td> KNN</td><td>k=6</td><td>0.33</td><tr>
-<tr><td> KWNN</td><td>k=9</td><td>0.33</td<tr>
+<tr><td> 1NN</td><td>k=1 </td><td>0.047</td><tr>
+<tr><td> KNN</td><td>k=6</td><td>0.033</td><tr>
+<tr><td> KWNN</td><td>k=9</td><td>0.033</td<tr>
  <table>
