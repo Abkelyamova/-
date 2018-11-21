@@ -94,7 +94,20 @@ LOO <- function(xl,class)
 - Лучше точность на границах.
 Пример показывающий преимущество метода kwNN над kNN(k=7): 
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/knn&kwnn.png)
-##Парзеновское окно
+## Парзеновское окно
+В методе Парзеновского окна, мы используем весовую функцию _w(i,u)_ как функцию от расстояния. Если в алгоритме KWNN мы подбирали _k_ объектов с помощью _скользящего контроля(LOO)_, то в данном методе необходимо подбирать параметр «ширина окна». Надо выбрать такое _h_, которое даст меньше всего ошибок. Для оценки близости объекта _u_ к классу _y_ алгоритм использует следующую функцию:
+
+![](http://latex.codecogs.com/svg.latex?%5Clarge%20W%28i%2C%20u%29%20%3D%20K%28%5Cfrac%7B%5Crho%28u%2C%20x%5Ei_u%29%7D%7Bh%7D%29)
+, где 
+![](http://latex.codecogs.com/svg.latex?%5Clarge%20K%28z%29) — функция ядра. 
+
+Чаще всего применяются 5 типов ядер:
+- Прямоугольное ![](http://latex.codecogs.com/svg.latex?%5Clarge%20R%28z%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20%5B%7Cz%7C%20%5Cleq%201%5D)
+- Треугольное ![](http://latex.codecogs.com/svg.latex?%5Clarge%20T%28z%29%20%3D%20%281%20-%20%7Cz%7C%29%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+- Квартическое ![](http://latex.codecogs.com/svg.latex?%5Clarge%20Q%28z%29%20%3D%20%5Cfrac%7B15%7D%7B16%7D%20%281%20-%20z%5E2%29%5E2%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+- Епанечниково ![](http://latex.codecogs.com/svg.latex?%5Clarge%20E%28z%29%20%3D%20%5Cfrac%7B3%7D%7B4%7D%20%281%20-%20z%5E2%29%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+- Гауссовское (нормальное распределение)
+
 <table>
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
 <tr><td> KNN</td><td>k=6</td><td>0.33</td><tr>
