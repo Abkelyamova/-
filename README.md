@@ -89,12 +89,12 @@ LOO <- function(xl,class)
 #### Преимущества:
 При любом k алгоритм неплохо классифицирует. 
 ### Сравнение качества алгоритмов KNN и KwNN.
-Пример показывающий преимущество метода kwNN над kNN: 
-![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/knn&kwnn.png)
-#### Чем kwnn лучше/хуже knn?
-- То же самое, что и knn
+###### Чем kwnn лучше/хуже knn?
 - Шире диапазон оптимальных k.
 - Лучше точность на границах.
+Пример показывающий преимущество метода kwNN над kNN(k=7): 
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/knn&kwnn.png)
+##Парзеновское окно
 <table>
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
 <tr><td> KNN</td><td>k=6</td><td>0.33</td><tr>
