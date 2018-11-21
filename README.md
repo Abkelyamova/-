@@ -82,6 +82,7 @@ LOO <- function(xl,class)
 
 Результат роботы алгоритма:
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/KwNN.png)
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO%26Kwnn.png)
 #### Недостатки:
 1. Приходится хранить обучающую выборку Xl целиком, что приводит к неэффективному расходу памяти. При наличии погрешностей это может привести к понижению точности классификации вблизи границ классов.
 2. Исключается настройка алгоритмов по данным (крайне "бедный" набор параметров).
