@@ -109,7 +109,17 @@ LOO <- function(xl,class)
 - Квартическое ![](http://latex.codecogs.com/svg.latex?%5Clarge%20Q%28z%29%20%3D%20%5Cfrac%7B15%7D%7B16%7D%20%281%20-%20z%5E2%29%5E2%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
 - Епанечниково ![](http://latex.codecogs.com/svg.latex?%5Clarge%20E%28z%29%20%3D%20%5Cfrac%7B3%7D%7B4%7D%20%281%20-%20z%5E2%29%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
 - Гауссовское (нормальное распределение)
-
+Рассмотрим результаты работы алгоритма, используя функции данных ядер.
+Прямоугольное:
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/pw(pg).png)
+Треугольное:
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(T).png)
+Квартическое:
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Q).png)
+Епачниково:
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
+Гауссовское:
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(G).png)
 <table>
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
 <tr><td> KNN</td><td>k=6</td><td>0.33</td><tr>
