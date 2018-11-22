@@ -133,7 +133,6 @@ LOO <- function(xl,class)
 ## Сравнение алгоритмов классификации:
 <table>
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
-<tr><td> 1NN</td><td>k=1 </td><td>0.047</td><tr>
 <tr><td> KNN</td><td>k=6</td><td>0.033</td><tr>
 <tr><td> KWNN</td><td>k=9</td><td>0.033</td<tr>
  <table>
