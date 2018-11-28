@@ -121,6 +121,7 @@ LOO <- function(xl,class)
 
 Случай ядра Епачникова:
 ![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;(|r|\leq&space;1))
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EP).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
 
 Случай гауссовского ядра, (нормальное распределение):
