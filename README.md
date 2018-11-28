@@ -105,21 +105,21 @@ LOO <- function(xl,class)
 
 Случай прямоугольного ядра:
 
-![](http://latex.codecogs.com/svg.latex?%5Clarge%20R%28z%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20%5B%7Cz%7C%20%5Cleq%201%5D)
+![](https://latex.codecogs.com/gif.latex?R(r)=\frac{1}{2}[|r|\leq&space;1])
 
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/pw(pg).png)
 
 Случай треугольного ядра:
-![](http://latex.codecogs.com/svg.latex?%5Clarge%20T%28z%29%20%3D%20%281%20-%20%7Cz%7C%29%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+![](https://latex.codecogs.com/gif.latex?T(r)=(1-|r|)\cdot&space;(|r|\leq&space;1))
 
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(T).png)
 
 Случай квартического ядра:
-![](http://latex.codecogs.com/svg.latex?%5Clarge%20Q%28z%29%20%3D%20%5Cfrac%7B15%7D%7B16%7D%20%281%20-%20z%5E2%29%5E2%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+![](https://latex.codecogs.com/gif.latex?Q(r)=\frac{15}{16}(1-r^{2})^{2}\cdot&space;(|r|\leq&space;1))
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Q).png)
 
 Случай ядра Епачникова:
-![](http://latex.codecogs.com/svg.latex?%5Clarge%20E%28z%29%20%3D%20%5Cfrac%7B3%7D%7B4%7D%20%281%20-%20z%5E2%29%20%5Ccdot%20%5B%7Cz%7C%20%5Cleq%201%5D)
+![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;(|r|\leq&space;1))
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
 
 Случай гауссовского ядра, (нормальное распределение):
