@@ -106,6 +106,7 @@ LOO <- function(xl,class)
 Случай прямоугольного ядра:
 
 ![](https://latex.codecogs.com/gif.latex?R(r)=\frac{1}{2}[|r|\leq&space;1])
+
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(R).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/pw(pg).png)
 
@@ -128,7 +129,8 @@ LOO <- function(xl,class)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(G).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(G).png)
 
-Вывод: Больше всего подходи гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
+Вывод: Больше всего подходит гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
+В остальных случаях все точки, не попавшие в окно, отсеились (в ядрах кроме гауссовского). 
 
 ## Сравнение алгоритмов классификации:
 <table>
