@@ -106,16 +106,17 @@ LOO <- function(xl,class)
 Случай прямоугольного ядра:
 
 ![](https://latex.codecogs.com/gif.latex?R(r)=\frac{1}{2}[|r|\leq&space;1])
-
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(R).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/pw(pg).png)
 
 Случай треугольного ядра:
 ![](https://latex.codecogs.com/gif.latex?T(r)=(1-|r|)\cdot&space;(|r|\leq&space;1))
-
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(t).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(T).png)
 
 Случай квартического ядра:
 ![](https://latex.codecogs.com/gif.latex?Q(r)=\frac{15}{16}(1-r^{2})^{2}\cdot&space;(|r|\leq&space;1))
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(Q).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Q1).png)
 
 Случай ядра Епачникова:
@@ -123,6 +124,7 @@ LOO <- function(xl,class)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
 
 Случай гауссовского ядра, (нормальное распределение):
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(G).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(G).png)
 
 Вывод: Больше всего подходи гауссовское ядро. Оно однозначно разделило классы на всей плоскости.
