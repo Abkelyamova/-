@@ -122,8 +122,8 @@ LOO <- function(xl,class)
 
 Случай ядра Епанечникова:
 ![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;[|r|\leq&space;1])
-![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EPACH).png)
-![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EP).png)
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(EPACH).png)
 
 Случай гауссовского ядра, (нормальное распределение):
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(G).png)
@@ -139,4 +139,12 @@ LOO <- function(xl,class)
 <tr><td> KWNN</td><td>k=9</td><td>0.033</td<tr>
 <tr><td> Парзеновское окно
 (Прямоугольное ядро)</td><td>h=0.4</td><td>0.04</td<tr>
+  <tr><td> Парзеновское окно
+(Треугольное ядро)</td><td>h=0.4</td><td>0.04</td<tr>
+    <tr><td> Парзеновское окно
+(Квадрическое ядро)</td><td>h=0.4</td><td>0.04</td<tr>
+<tr><td> Парзеновское окно
+(Ядро Епанечникова)</td><td>h=0.4</td><td>0.04</td<tr>
+  <tr><td> Парзеновское окно
+(Гауссовское ядро)</td><td>h=0.4</td><td>0.04</td<tr>
  <table>
