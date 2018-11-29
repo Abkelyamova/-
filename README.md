@@ -111,17 +111,17 @@ LOO <- function(xl,class)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/pw(pg).png)
 
 Случай треугольного ядра:
-![](https://latex.codecogs.com/gif.latex?T(r)=(1-|r|)\cdot&space;(|r|\leq&space;1))
+![](https://latex.codecogs.com/gif.latex?T(r)=(1-|r|)\cdot&space;[|r|\leq&space;1])
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(t).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(T).png)
 
 Случай квартического ядра:
-![](https://latex.codecogs.com/gif.latex?Q(r)=\frac{15}{16}(1-r^{2})^{2}\cdot&space;(|r|\leq&space;1))
+![](https://latex.codecogs.com/gif.latex?Q(r)=\frac{15}{16}(1-r^{2})^{2}\cdot&space;[|r|\leq&space;1])
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(Q).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Q1).png)
 
 Случай ядра Епачникова:
-![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;(|r|\leq&space;1))
+![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;[|r|\leq&space;1])
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EP).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
 
