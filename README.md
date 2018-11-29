@@ -137,4 +137,6 @@ LOO <- function(xl,class)
 <tr><td>Метод</td><td>параметры</td><td>величина ошибок</td><tr>
 <tr><td> KNN</td><td>k=6</td><td>0.033</td><tr>
 <tr><td> KWNN</td><td>k=9</td><td>0.033</td<tr>
+<tr><td> Парзеновское окно
+(Прямоугольное ядро)</td><td>h=0.4</td><td>0.04</td<tr>
  <table>
