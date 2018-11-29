@@ -120,9 +120,9 @@ LOO <- function(xl,class)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(Q).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Q1).png)
 
-Случай ядра Епачникова:
+Случай ядра Епанечникова:
 ![](https://latex.codecogs.com/gif.latex?E(r)=\frac{3}{4}(1-r^{2})\cdot&space;[|r|\leq&space;1])
-![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EP).png)
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/LOO_PW(EPAC).png)
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/PW(Ep).png)
 
 Случай гауссовского ядра, (нормальное распределение):
