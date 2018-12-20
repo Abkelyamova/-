@@ -178,27 +178,27 @@ __Plug-in__ байесовский алгоритм классификации, 
 Выбирая различные матрицы ковариации и центры для генерации тестовых данных, будем получать различные виды
 дискриминантной функции.
 
-### 1.Эллипс. 
+Пример 1. Дискриминантная функфия - эллипс. 
 
-Центр первого класса (2,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(4).gif)
+Центр первого класса (2,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(2).gif)
 
-Центр второго класса (15,2) Ковариационная матрица второго класса ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(5).gif)
+Центр второго класса (15,2) Ковариационная матрица второго класса ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(3).gif)
 
 Результат: 
 
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/окружность.png)
 
-### 2. Гипербола.
+Пример 2. Дискриминантная функфия - гипербола.
 
-Центр первого класса (1,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(2).gif)
+Центр первого класса (1,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(4).gif)
 
-Центр второго класса (5,2) Ковариационная матрица второго класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(3).gif)
+Центр второго класса (5,2) Ковариационная матрица второго класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(5).gif)
 
 Результат: 
 
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/гипербола.png)
 
-### 3. Парабола.
+Пример 3. Дискриминантная функфия - парабола.
 
 Центр первого класса (-5,0) Ковариационная матрица первого класса:![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn.gif)
 
