@@ -180,9 +180,9 @@ __Plug-in__ байесовский алгоритм классификации, 
 
 ### 1.Эллипс. 
 
-Центр первого класса (2,2) Ковариационная матрица первого класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;10&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
+Центр первого класса (2,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(4).gif)
 
-Центр второго класса (15,2) Ковариационная матрица второго класса ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;10&space;\end{smallmatrix}\bigr))
+Центр второго класса (15,2) Ковариационная матрица второго класса ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(5).gif)
 
 Результат: 
 
@@ -190,9 +190,9 @@ __Plug-in__ байесовский алгоритм классификации, 
 
 ### 2. Гипербола.
 
-Центр первого класса (1,2) Ковариационная матрица первого класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
+Центр первого класса (1,2) Ковариационная матрица первого класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(2).gif)
 
-Центр второго класса (5,2) Ковариационная матрица второго класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;5&space;\end{smallmatrix}\bigr))
+Центр второго класса (5,2) Ковариационная матрица второго класса: ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(3).gif)
 
 Результат: 
 
@@ -200,9 +200,9 @@ __Plug-in__ байесовский алгоритм классификации, 
 
 ### 3. Парабола.
 
-Центр первого класса (-5,0) Ковариационная матрица первого класса:![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;10&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
+Центр первого класса (-5,0) Ковариационная матрица первого класса:![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn.gif)
 
-Центр второго класса (10,0) Ковариационная матрица второго класса:![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;10&space;\end{smallmatrix}\bigr))
+Центр второго класса (10,0) Ковариационная матрица второго класса:![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/CodeCogsEqn(1).gif)
 
 Результат:
 
