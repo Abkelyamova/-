@@ -174,23 +174,29 @@ __Plug-in__ байесовский алгоритм классификации, 
 дискриминантной функции.
 
 1.Эллипс. 
+
 Центр первого класса (2,2) Ковариационная матрица первого класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;10&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
 
 Центр второго класса (15,2) Ковариационная матрица второго класса ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;10&space;\end{smallmatrix}\bigr))
 
 Результат: 
+
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/окружность.png)
 
 2. Гипербола.
 
 Центр первого класса (1,2) Ковариационная матрица первого класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
+
 Центр второго класса (5,2) Ковариационная матрица второго класса: ![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;5&space;\end{smallmatrix}\bigr))
 
 Результат: 
+
 ![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/гипербола.png)
 
 3. Парабола.
+
 Центр первого класса (-5,0) Ковариационная матрица первого класса:![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;10&space;&&space;0\\&space;0&space;&&space;1&space;\end{smallmatrix}\bigr))
+
 Центр второго класса (10,0) Ковариационная матрица второго класса:![](https://latex.codecogs.com/gif.latex?\bigl(\begin{smallmatrix}&space;5&space;&&space;0\\&space;0&space;&&space;10&space;\end{smallmatrix}\bigr))
 
 Результат:
