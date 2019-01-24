@@ -263,5 +263,4 @@ _ковариационной матрицы_ и поиском _разделя�
 <img width="578" alt="_" src="https://user-images.githubusercontent.com/44859059/50449833-db174800-093a-11e9-8567-b4d62a71a4f8.png">
 
 
-
 https://abkelyamova.shinyapps.io/lines/
