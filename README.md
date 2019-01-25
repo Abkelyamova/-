@@ -184,6 +184,26 @@ LOO <- function(xl,class)
 
 ![](http://latex.codecogs.com/svg.latex?%5CSigma%20%5Cin%20%5Cmathbb%7BR%7D%5E%7Bn%20%5Ctimes%20n%7D)
 – ковариационная матрица (положительно определенная, симметричная, невырожденная).
+Рассмотрим различные случаи геометрии нормальной плоскости:
+
+1. Признаки некореллированы, то есть
+![](http://latex.codecogs.com/svg.latex?%5CSigma%20%3D%20%5Cmbox%7Bdiag%7D%28%5Csigma_1%5E2%2C...%2C%5Csigma_n%5E2%29)
+, то плотности распределения имеют форму эллипсоидов, параллельных осям координат:
+
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/Rplot13.png)
+
+2. Если признаки имеют одинаковые дисперсии
+![](http://latex.codecogs.com/svg.latex?%5CSigma%20%3D%20%5Csigma%5E2I_n),
+линии уровня имеют форму эллипсоидов:
+
+
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/Rplot11.png)
+
+3. Если матрица не диагональна, то линии уровня – эллипсоиды, повернутые относительно
+оси координат:
+
+
+![](https://github.com/Abkelyamova/SMPR_AbkelyamovaGulzara/blob/master/Bayes_algoritms/Rplot12.png)
 
 
 ## Подстановочный алгоритм Plug-in
